@@ -35,5 +35,5 @@ class Linkedlist():
 l=Linkedlist()
 a=int(input())
 b=[int(i) for i in input().split()]
-l.insert_values(sorted(b))
+l.insert_values(b)
 l.print(a)
